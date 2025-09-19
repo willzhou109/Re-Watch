@@ -1,12 +1,38 @@
-# Re:Watch
+# 📺 MyWatchlist – Anime Tracker & Explorer
 
-This project provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**MyWatchlist** is a modern, full-stack anime watchlist and discovery app built with React and powered by the [Jikan API](https://docs.api.jikan.moe). Browse top-rated shows, explore seasonal anime, and view detailed info for each title — with plans to support watchlist saving, authentication, and a PostgreSQL backend.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## Expanding the ESLint configuration
+- 🔍 **Search Anime** — Quickly search any anime by title
+- 📊 **Top Anime List** — Explore the most popular anime
+- 🗓️ **Seasonal Explorer** — Filter anime by season and year (e.g., Fall 2022)
+- 📄 **Anime Detail Pages** — Full descriptions, genres, episodes, trailers & more
+- ❤️ **Favorites** — Mark anime as favorites locally
+- 💡 **Responsive UI** — Clean, dark-themed design built with modern frontend tools
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+| Tech | Description |
+|------|-------------|
+| **React** | Frontend UI with components and routing |
+| **React Router** | Client-side navigation |
+| **Jikan API** | Unofficial MyAnimeList REST API |
+| **Node.js + Express** | *(Planned)* Backend API for user features |
+| **PostgreSQL** | *(Planned)* Database for watchlists and users |
+| **CSS / Tailwind** | Custom styling and layout |
+| **Vercel / Render** | *(Planned)* Deployment targets |
+
+---
+
+## 🧑‍💻 Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/yourusername/mywatchlist.git
+cd mywatchlist

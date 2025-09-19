@@ -1,6 +1,7 @@
 import "./css/App.css";
 import Favorites from './pages/Favorites';
 import Home from './pages/Home';
+import AnimeInfo from './pages/AnimeInfo';
 import { Routes, Route } from 'react-router-dom';
 import { AnimeProvider } from "./contexts/AnimeContext";
 import NavBar from './components/NavBar';
@@ -13,7 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/favorites" element={<Favorites />} />
-          
+          <Route path="/anime/:id" element={<AnimeInfo />} />
         </Routes>
       </main>
     </AnimeProvider>
