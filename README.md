@@ -1,6 +1,6 @@
 # 📺 Re:Watch – Anime Tracker & Explorer
 
-**Re:Watch** is a modern, full-stack anime watchlist and discovery app built with React and powered by the [Jikan API](https://docs.api.jikan.moe). Browse top-rated shows, explore seasonal anime, and view detailed info for each title — with plans to support watchlist saving, authentication, and a PostgreSQL backend.
+**Re:Watch** is a modern, full-stack anime watchlist and discovery app built with React and powered by the [Jikan API](https://docs.api.jikan.moe). Browse top-rated shows, explore seasonal anime, and view detailed info for each title, with watchlist saving, authentication, and a PostgreSQL backend.
 
 ---
 <img width="1705" height="1255" alt="image" src="https://github.com/user-attachments/assets/d70dccd1-5e1f-4d9a-9a14-b5fd346e5405" />
@@ -28,4 +28,3 @@
 | **PostgreSQL** | Database for watchlists and users |
 | **CSS / Tailwind** | Custom styling and layout |
 | **Vercel** | Deployment targets |
-
