@@ -8,7 +8,7 @@ function AnimeCard({anime}) {
 
     function onFavoriteClick(e) {
         e.preventDefault();
-        e.stopPropogation();
+        e.stopPropagation();
         if (favorite) removeFromFavorites(anime.id)
         else addToFavorites(anime)
     }

@@ -1,10 +1,10 @@
 .anime-card {
-  position: relative;
   border-radius: 8px;
   overflow: hidden;
   background-color: #1a1a1a;
   transition: transform 0.2s;
   height: 100%;
+  max-width: 300px;
   display: flex;
   flex-direction: column;
 }

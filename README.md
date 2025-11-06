@@ -1,6 +1,6 @@
-# 📺 MyWatchlist – Anime Tracker & Explorer
+# 📺 Re:Watch – Anime Tracker & Explorer
 
-**MyWatchlist** is a modern, full-stack anime watchlist and discovery app built with React and powered by the [Jikan API](https://docs.api.jikan.moe). Browse top-rated shows, explore seasonal anime, and view detailed info for each title — with plans to support watchlist saving, authentication, and a PostgreSQL backend.
+**Re:Watch** is a modern, full-stack anime watchlist and discovery app built with React and powered by the [Jikan API](https://docs.api.jikan.moe). Browse top-rated shows, explore seasonal anime, and view detailed info for each title — with plans to support watchlist saving, authentication, and a PostgreSQL backend.
 
 ---
 
@@ -25,14 +25,5 @@
 | **Node.js + Express** | *(Planned)* Backend API for user features |
 | **PostgreSQL** | *(Planned)* Database for watchlists and users |
 | **CSS / Tailwind** | Custom styling and layout |
-| **Vercel / Render** | *(Planned)* Deployment targets |
+| **Vercel** | *(Planned)* Deployment targets |
 
----
-
-## 🧑‍💻 Getting Started
-
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/yourusername/mywatchlist.git
-cd mywatchlist

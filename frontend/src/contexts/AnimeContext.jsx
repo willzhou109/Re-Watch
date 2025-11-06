@@ -22,11 +22,11 @@ export const AnimeProvider = ({children}) => {
     }
 
     const removeFromFavorites = (animeId) => {
-        setFavorites(prev => prev.filter(anime => anime.id !== animeId))
+        setFavorites(prev => prev.filter(anime => anime.mal_id !== animeId))
     }
     
     const isFavorite = (animeId) => {
-        return favorites.some(anime => anime.id === animeId)
+        return favorites.some(anime => anime.mal_id === animeId)
     }
 
     const value = {

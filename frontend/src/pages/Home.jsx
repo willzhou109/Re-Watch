@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import AnimeCard from "../components/AnimeCard";          // keep or rename if you create <AnimeCard />
+import AnimeCard from "../components/AnimeCard";
 import { searchAnime, getPopularAnime } from "../services/api";
 import "../css/Home.css";
 
@@ -51,7 +51,7 @@ function Home() {
       <section className="hero-section">
         <p className="hero-subtitle">「もう一度見る」</p>
         <h1 className="hero-title">Re:Watch</h1>
-        <p className="hero-desc">This is a personal project to help myself and you keep track of your favorite anime and manga.</p>
+        <p className="hero-desc">Dis is a personal project to help myself and you keep track of your favorite anime and manga.</p>
         <button className="get-started-btn">Get Started</button>
       </section>
       <form onSubmit={handleSearch} className="search-form">
